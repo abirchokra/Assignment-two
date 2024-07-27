@@ -359,9 +359,7 @@ body{
 }   */
 
 /* bmi section start  */
-.bmi{
-    margin-bottom: 500px;
-}
+
 .bmi-cal{
     margin-top: 78px;
     width: 671px;
@@ -374,6 +372,7 @@ body{
     color: rgb(255, 255, 255);
     font-size: 3rem;
     font-weight: 900;
+    
 }
 .bmi-subtitle{
     color: rgba(255, 255, 255, 0.5);
@@ -382,7 +381,7 @@ body{
     margin-top: 14px;
 }
 .bmi-container{
-    max-width:1440px;
+    
     height: 487px;
     background: rgb(34, 34, 34);
  
@@ -484,4 +483,67 @@ input{
     font-size: 1.13rem;
     font-weight: 600;
     margin-top: 18px;
+}
+
+/* team section start  */
+
+.our-team{
+    width:  671px;
+    height: 119px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 90px;
+}
+.our-team-heading{
+    color: rgb(255, 255, 255);
+    font-size:3rem ;
+    font-weight: 900;
+    text-align: center;
+    margin-bottom: 14px;
+}
+.our-team-subtitle{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 0.88rem;
+    font-weight: 400;
+    text-align: center;
+}
+.our-team-img-container{
+    max-width: 1060px;
+    height: 610px;
+    border-radius: 18px;
+    background: rgba(255, 255, 255, 0.1);
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 58px;
+}
+#our-team-img{
+    width: 326.67px;
+    height: 272px;
+   
+    margin-top: 30px;
+    margin-left: 15px;
+    position: relative;
+}
+#our-team-img img{
+    width: 100%;
+    height: 100%;
+    border-radius: 18px;
+   
+}
+#member-name{
+    position: absolute;
+    bottom: 30px;
+    left: 5px;
+    color: white;
+    font-size: medium;
+
+}
+#trainer{
+    position: absolute;
+    bottom: 10px;
+    left: 5px;
+    color: rgba(255, 255, 255, 0.5) ;
+    font-size: small;
 }
