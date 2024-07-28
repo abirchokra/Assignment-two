@@ -607,10 +607,12 @@ hr{
         height: 1200px;
     }
     .nav-bar{
+        width: 353px;
+        height: 44px;
         
         padding: 20px;
         margin-bottom: 100px;
-        justify-content: space-evenly;
+       
 
         
     }
@@ -637,8 +639,44 @@ hr{
     .banner-left-side{
         margin-right: 100px;
         width: 280px;
+        height: 336px;
+       
     
         
     }
-    
+    .banner-heading{
+        color: rgb(255, 255, 255);
+        font-size: 36px;
+        font-weight: 900;
+    }
+    .banner-subtitle{
+        font-size: 16px;
+        font-weight: 400;
+    }
+    .banner-btn{
+        margin-left: -110px;
+
+    }
+    .banner-btn-two{
+        margin-right: -100px;
+
+    }
+    .banner-right-side{
+        margin-top: 50px;
+        width: 353px;
+        height: 588px;
+        margin-right: 10px;
+       
+    }
+    .large{
+        width: 145.91px;
+        height: 74.09px;
+    }
+    .large p{
+        
+    }
+    .small{
+        width: 155.74px;
+        height: 72.58px;
+    }
 }
