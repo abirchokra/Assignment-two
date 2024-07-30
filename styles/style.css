@@ -110,7 +110,7 @@ body{
     border-radius: 42px;
     background:linear-gradient(180.00deg, rgb(43, 41, 41),rgba(110, 107, 107, 0) 100%) ;
     color: rgb(255, 255, 255);
-    font-size: 18px;
+    font-size: 1.1rem;
     font-weight: 600;
     cursor: pointer;
     padding: 16px 40px 16px 40px;
@@ -225,7 +225,13 @@ body{
 
 }
 
+#habit-img-subtitle{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 0.9rem;
+    font-weight: 400;
+    text-align: center;
 
+}
 /* run section  */
 
 .run{
@@ -604,40 +610,42 @@ hr{
 @media screen and (max-width:576px) {
     .header-bg{
         width: 100%;
-        height: 1200px;
+        height: 1100px;
+        
     }
     .nav-bar{
         width: 353px;
-        height: 44px;
-        
+        height: 34px;
         padding: 20px;
-        margin-bottom: 100px;
-       
-
-        
+        margin-bottom: 50px;
     }
     .brand{
         padding-left: 5px;
+        font-size:2rem ;
+        font-weight: 800;
+
     }
     .menu{
-
+        flex-direction: column;
+        position: absolute;
+        right: 50px;
         visibility: hidden;
-        
     }
     .menu-bar{
         visibility: visible;
         position: absolute;
-        left: 300px;
-        left: 350px;
-
-
+        left: 360px;
         
+    }
+    .menu-bar img{
+        width: 30px;
+        height: 30px;
     }
     .banner{
         flex-direction: column;
     }
     .banner-left-side{
-        margin-right: 100px;
+        margin-right: 290px;
         width: 280px;
         height: 336px;
        
@@ -653,12 +661,24 @@ hr{
         font-size: 16px;
         font-weight: 400;
     }
+    .btn-container{
+        display: flex;
+        margin-top: 30px;
+        width: 410px;
+        height: 100px;
+        margin-left: -10px;
+    }
     .banner-btn{
-        margin-left: -110px;
+        width: 190px;
+        height: 64px;
 
     }
+
     .banner-btn-two{
-        margin-right: -100px;
+        width: 205px;
+        height: 64px;
+        margin-top: 22px;
+
 
     }
     .banner-right-side{
@@ -666,17 +686,222 @@ hr{
         width: 353px;
         height: 588px;
         margin-right: 10px;
+        position: relative;
        
     }
     .large{
-        width: 145.91px;
+        width: 160.91px;
         height: 74.09px;
+        position: absolute;
+        top: 70px;
+        left: 200px;
     }
     .large p{
+        position: absolute;
+        top: 50px;
+        left: 10px;
+    
         
     }
     .small{
-        width: 155.74px;
-        height: 72.58px;
+        width: 170.74px;
+        height: 82.58px;
+        position: absolute;
+        top: 260px;
+        left:5px;
     }
+    .small h3{
+        position: absolute;
+        left: 60px;
+    }
+    .small p{
+        position: absolute;
+        left: 60px;
+    }
+    .habit{
+        width: 338px;
+        height: 1395px;
+    }
+    .habit-heading-container{
+        width: 318px;
+        height: 215px;
+        margin-top: -50px;
+    }
+    .habit-heading{
+        width: 318px;
+        height: 39px;
+        margin-bottom: 90px;
+    }
+    .habit-subtitle{
+        width: 316px;
+        height: 72px;
+    }
+    .habit-img-container{
+        flex-direction: column;
+        width: 338px;
+        height: 1212px;
+        margin-top: -3px;
+    }
+    #habit-sub-container{
+        margin-bottom: 20px;
+    }
+    .run{
+        flex-direction: column;
+        width: 353px;
+        height: 570px;
+        position: relative;
+    }
+    .run-left-side{
+        width: 287px;
+        height: 265px;
+    }
+    .run-right-side{
+        width: 287px;
+        height: 170px;
+        margin-left: 30px;
+        position: absolute;
+        top: 360px;
+      
+    }
+    .run-right-side img{
+        width: 287px;
+        height: 170px;
+    }
+    .bmi-cal{
+        width: 353px;
+        height: 125px;
+    }
+    .bmi-container{
+        flex-direction: column;
+        width: 100%;
+        height: 902px;
+        margin-bottom: 66px;
+       
+    }
+    
+    .bmi-chart-heading{
+        margin-left: 20px;
+        width: 300px;
+    }
+    table{
+        margin-left: 20px;
+    }
+
+    .your-bmi-cal{
+        width: 354px;
+        height: 505px;
+        margin-left: 20px;
+        position: relative;
+      
+    
+    }
+    .your-bmi-heading{
+        margin-top: -45px;
+    }
+    .information-container{
+        width: 353px;
+        height: 168px;
+        position: relative;
+       
+    
+    }
+    #information {
+        width: 170.5px;
+        height: 48px;
+
+
+    }
+    #information:nth-child(2){
+        position: absolute;
+    }
+
+    #information:nth-child(4){
+        position: absolute;
+        left: 180px;
+    }
+
+    #information-last{
+        width: 353px;
+        height: 48px;
+        margin-bottom: 30px;
+        margin-top: 15px;
+      
+    }
+    .bmi-btn{
+        position: absolute;
+    
+    }
+    .our-team{
+        width: 309px;
+        height: 125px;
+        margin-bottom: 50px;
+
+    }
+    .our-team-heading{
+        width: 243px;
+        height: 39px;
+        font-size: 2rem;
+        margin-left: 30px;
+    }
+    .our-team-subtitle{
+   
+        width: 309px;
+        height: 72px;
+        text-align: center;
+     
+        
+    }
+    .our-team-img-container{
+        grid-template-columns: repeat(1,1fr);
+        width: 353px;
+        height: 1888px;
+        margin-bottom:200px;
+    }
+    .our-team-img{
+        width: 313px;
+        height: 272px;
+    }
+    .footer-section{
+        width: 100%;
+        height: 1100px;
+        margin-top: -80px;
+    }
+    .footer-container{
+        flex-direction: column;
+        width: 353px;
+        height: 750px;
+    }
+    .footer-left{
+        width: 317px;
+        height: 200px;
+        margin-left: -10px;
+    }
+    .footer-left-subtitle{
+        line-height: 24px;
+        letter-spacing: 0.3px;
+
+    }
+
+    .footer-left-subtitle{
+        width: 317px;
+        height: 96px;
+    }
+    .footer-right{
+        flex-direction: column;
+        width: 353px;
+        height: 520px;
+       
+    }
+    .right{
+        margin-left: -10px;
+    }
+    .right-two{
+        margin-left: -10px;
+    }
+    hr{
+        width: 354px;
+        height: 0;
+        margin-top: 230px;
+    }
+
 }
