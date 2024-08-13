@@ -644,7 +644,7 @@ input{
 
 .footer-section{
     background: rgba(255, 255, 255, 0.1);
-    height:580px;
+    height:500px;
     margin-top:110px ;
 
 }
@@ -673,6 +673,7 @@ input{
     color: rgb(230, 83, 60);
     font-size: 4.38rem;
     font-weight: 800;
+    font-style: italic;
 }
 .footer-left-subtitle{
     color: rgba(255, 255, 255, 0.5);
@@ -692,8 +693,9 @@ input{
 }
 .right{
     width: 360px;
-    height: 300px;
+    height: 260px;
     margin-left: 80px;
+  
   
  
     margin-top: 15px;
@@ -703,14 +705,14 @@ input{
     color: rgb(255, 255, 255);
     font-size: 2rem;
     font-weight: 700;
-    margin-bottom: 35px;
+    margin-bottom: 25px;
 }
 .right ul{
     list-style: none;
     
 }
 .right li {
-    margin-bottom: 40px;
+    margin-bottom: 30px;
 }
 .right ul li a{
     text-decoration: none;
@@ -722,11 +724,12 @@ input{
 
 .right-two{
     width: 360px;
-    height: 300px;
+    height: 260px;
     margin-left: 160px;
     
    
     margin-top: 15px;
+  
 
 }
 .right-two ul{
@@ -734,7 +737,7 @@ input{
     
 }
 .right-two li {
-    margin-bottom: 40px;
+    margin-bottom: 30px;
 }
 .right-two ul li a{
     text-decoration: none;
@@ -747,7 +750,8 @@ hr{
     border: 2px solid rgba(255, 255, 255, 0.1);
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 35px;
+    margin-top: -60px;
+    
     
 }
 .footer-last-line{
@@ -755,6 +759,7 @@ hr{
     font-size: 1.25rem;
     font-weight: 400;
     text-align: center;
+    margin-top: 20px;
 }
 
 
@@ -1072,7 +1077,8 @@ hr{
     hr{
         width: 354px;
         height: 0;
-        margin-top: 230px;
+        margin-top: 210px;
+        margin-bottom: 20px;
     }
 
 }
