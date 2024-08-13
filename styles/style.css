@@ -447,7 +447,10 @@ input{
     letter-spacing: 2px;
 }
 .mid-hori{
+    margin-left: auto;
+    margin-right: auto;
     margin-top: 10px;
+    margin-bottom: 20px;
     width: 200px;
     border: 1px solid rgba(255, 255, 255, 0.1);
 }
@@ -525,11 +528,14 @@ input{
 .hori-box{
     width: 200px;
     border: 1px solid rgba(255, 255, 255, 0.1);
-    margin-top: 20px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
     
 }
 #boxs-one ul{
-    margin-top: -20px;
+    
     color: rgba(255, 255, 255, 0.5);
     margin-left: 100px;
 
@@ -745,7 +751,7 @@ input{
     font-size: 1rem;
     font-weight: 400;
 }
-hr{
+.foot-hori{
     width: 1059.5px;
     border: 2px solid rgba(255, 255, 255, 0.1);
     margin-left: auto;
@@ -1074,7 +1080,7 @@ hr{
     .right-two{
         margin-left: -10px;
     }
-    hr{
+    .foot-hori{
         width: 354px;
         height: 0;
         margin-top: 210px;
