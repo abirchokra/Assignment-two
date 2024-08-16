@@ -971,6 +971,9 @@ input{
     .run-right-side img{
         width: 287px;
         height: 170px;
+        object-fit: cover;
+      
+       
     }
     .bmi-cal{
         width: 353px;
