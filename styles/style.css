@@ -547,7 +547,7 @@ input{
 
 }
 #head-color{
-    color:  rgb(171, 197, 2);
+    color:  rgb(230, 83, 60);
 }
 #head-two-color{
     color: white;
@@ -574,7 +574,7 @@ input{
     margin-top: 29px;
     width: 350px;
     height: 88px;
-    background-color: rgb(171, 197, 2);
+    background-color: rgb(230, 83, 60);
     text-align: center;
 }
 #box-btn{
@@ -590,7 +590,7 @@ input{
     cursor: pointer;
 }
 #box-btn:hover{
-    color: rgb(171, 162, 11);
+    color: rgb(230, 83, 60);
     transition: .8s;
 }
 .box-one-container:hover{
